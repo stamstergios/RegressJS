@@ -10,7 +10,7 @@ Components can be asynchronously extended using the following technique:
 require('../componentsExtensions/' + this.target.getAttribute('data-component-id'))(this, (extensions) => {
 });
 ```
-When compiled using Webpack the '../componentsExtensions/myextended-component-table' is succesfully resolved and mapped for use in \__webpack_require__
+When compiled using Webpack, the '../componentsExtensions/myextended-component-table', for example, is succesfully resolved and mapped for use in '\_\_webpack_require__'
 
 ## In the custom extended component file e.g. myextended-component-table.js: 
 ```js
