@@ -15,6 +15,8 @@ When compiled using Webpack, the '../componentsExtensions/myextended-component-t
 ## In the custom extended component file e.g. myextended-component-table.js: 
 ```js
 module.exports = (_super, extensions) => {
+
+  //e.g. _super.state.buttonPressed = true;
   .
   .
   .
