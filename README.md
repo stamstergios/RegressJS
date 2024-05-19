@@ -21,7 +21,7 @@ module.exports = (_super, extensions) => {
   .
   .
 
-  next({
+  extensions({
     extension1:123
     .
     .
