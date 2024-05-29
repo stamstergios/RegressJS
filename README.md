@@ -1,6 +1,6 @@
 # RegressJS
 RegressJS is a conservative UI framework for the front-end that enables the programmer to create components by writing traditional html as well as programmatically using class instances.
-Component styling is done eloquently using CSS-in-JS.
+Scoped component styling is done eloquently using CSS-in-JS and template literals.
 
 Components can be asynchronously extended using the following technique:
 
